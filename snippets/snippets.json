@@ -1,0 +1,15 @@
+{
+  "Onix Index": {
+    "prefix": "onix-index",
+    "body": [
+      "import { Application, MicroService } from '@onixjs/core';\n",
+      "@MicroService({",
+      "\thost: '${2:127.0.0.1}',",
+      "\tport: ${3:8080},",
+      "\tmodules: []",
+      "})",
+      "export class ${1:Todo}App extends Application {}"
+    ],
+    "description": "For Loop"
+  }
+}

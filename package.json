@@ -1,0 +1,21 @@
+{
+    "name": "onix-snippets",
+    "displayName": "onix-snippets",
+    "description": "Snippets to get started faster with onix js",
+    "version": "0.0.1",
+    "publisher": "rvargas26",
+    "engines": {
+        "vscode": "^1.21.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
