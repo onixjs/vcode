@@ -1,0 +1,13 @@
+{
+  "Onix Index": {
+    "prefix": "onix-config",
+    "body": [
+      "{\n",
+      "\t\"apps\": [",
+      "\t\t\"${1:AppName}\"",
+      "\t]",
+      "}\n",
+    ],
+    "description": "Onix Configuration file structure."
+  }
+}
