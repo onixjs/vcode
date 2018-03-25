@@ -1,6 +1,6 @@
 {
   "Onix Index": {
-    "prefix": "onix-index",
+    "prefix": "onix-application",
     "body": [
       "import { Application, MicroService } from '@onixjs/core';\n",
       "@MicroService({",

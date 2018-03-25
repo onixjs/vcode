@@ -4,7 +4,7 @@
     "body": [
       "{\n",
       "\t\"apps\": [",
-      "\t\t\"${1:AppName}\"",
+      "\t\t\"${1:AppClassName}@${2:AppFolderName}\"",
       "\t]",
       "}\n",
     ],
