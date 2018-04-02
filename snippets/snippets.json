@@ -10,6 +10,18 @@
       "})",
       "export class ${1:Todo}App extends Application {}"
     ],
-    "description": "For Loop"
+    "description": "Onix App Class"
+  },
+  "Onix Boot": {
+    "prefix": "onix-boot",
+    "body": [
+      "const config = require('../onix.config.json');",
+      "import { HostBoot } from '@onixjs/core';\n",
+      "// Create a new HostBoot instance for our OnixJS Config",
+      "const boot: HostBoot = new HostBoot(config);",
+      "// Run our OnixJS Context",
+      "boot.run();\n"
+    ],
+    "description": "Onix Boot file."
   }
 }

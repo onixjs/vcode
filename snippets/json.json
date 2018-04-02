@@ -6,7 +6,38 @@
       "\t\"apps\": [",
       "\t\t\"${1:AppClassName}@${2:AppFolderName}\"",
       "\t]",
-      "}\n",
+      "}\n"
+    ],
+    "description": "Onix Configuration file structure."
+  },
+  "Onix TS Config": {
+    "prefix": "onix-ts-config",
+    "body": [
+      "{",
+      "\t\"compilerOptions\": {",
+      "\t\t\"emitDecoratorMetadata\": true,",
+      "\t\t\"experimentalDecorators\": true,",
+      "\t\t\"noImplicitAny\": false,",
+      "\t\t\"strictNullChecks\": true,",
+      "\t\t\"noUnusedLocals\": true,",
+      "\t\t\"lib\": [",
+      "\t\t\t\"es2017\",",
+      "\t\t\t\"dom\"",
+      "\t\t],",
+      "\t\t\"module\": \"commonjs\",",
+      "\t\t\"moduleResolution\": \"node\",",
+      "\t\t\"target\": \"es2017\",",
+      "\t\t\"outDir\": \"dist\",",
+      "\t\t\"sourceMap\": true,",
+      "\t\t\"declaration\": true",
+      "\t},",
+      "\t\"include\": [",
+      "\t\t\"src\"",
+      "\t],",
+      "\t\"exclude\": [",
+      "\t\t\"node_modules\"",
+      "\t]",
+      "}\n"
     ],
     "description": "Onix Configuration file structure."
   }
